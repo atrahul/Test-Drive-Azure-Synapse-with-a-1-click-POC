@@ -496,7 +496,18 @@
           "properties": {
             "Enabled": "[parameters('metadataSync')]"
           }
-        }
+        },
+        {
+          "name": "current",
+          "type": "transparentDataEncryption",
+          "apiVersion": "2021-03-01",
+          "dependsOn": [
+            "[variables('sqlPoolName')]"
+          ],
+          "properties": {
+            "status": "Enabled"
+          }
+        }        
       ]
     },
     {
