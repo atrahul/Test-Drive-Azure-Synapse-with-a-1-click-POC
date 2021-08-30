@@ -226,7 +226,7 @@
         "description": "Time of day when the data warehouse will be paused"
       }
     },
-    "transparentDataEncryption": {
+//    "transparentDataEncryption": {
         "type": "string",
         "defaultValue": "Disabled",
         "allowedValues": [
