@@ -226,17 +226,17 @@
         "description": "Time of day when the data warehouse will be paused"
       }
     },
-//    "transparentDataEncryption": {
-        "type": "string",
-        "defaultValue": "Disabled",
-        "allowedValues": [
-          "Enabled",
-          "Disabled"
-        ],
-        "metadata": {
-          "description": "Enable or Disable Transparent Data Encryption on SQL pool"
-        }
-    },
+#    "transparentDataEncryption": {
+#        "type": "string",
+#        "defaultValue": "Disabled",
+#        "allowedValues": [
+#          "Enabled",
+#          "Disabled"
+#        ],
+#        "metadata": {
+#          "description": "Enable or Disable Transparent Data Encryption on SQL pool"
+#        }
+#    },
     "githubUsername": {
         "type": "string",
         "metadata": {
